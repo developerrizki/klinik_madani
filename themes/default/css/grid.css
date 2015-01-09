@@ -1,0 +1,109 @@
+#GridContainer
+{
+	width: 100%;
+	font-size: 13px;
+}
+
+#GridContainer .status
+{
+	text-align: center;
+	height: 20px;
+}
+
+#GridContainer a
+{
+	text-decoration: none;
+	color: #444444;
+}
+
+#GridContainer a:hover
+{
+	text-decoration: underline;
+	color: #444444;
+}
+
+#GridPagination
+{
+	text-align: right;
+	float: right;
+	width:40%;
+	margin-top:25px;
+	color:#555;
+	margin-right:15px;
+}
+
+#GridToolboxContainer
+{
+	padding:10px 15px;
+}
+
+#GridToolboxContainer img
+{
+	position: relative; top: -4px;
+}
+
+#GridActionButtonContainer
+{
+	padding:15px;
+	border-bottom:1px solid #ccc;
+	border-radius:0 0 5px 5px;
+}
+
+.GridSearch
+{
+    /*background: #eee;*/
+    /*width: 75%;*/
+    padding: 5px 10px;
+	color:#555;
+	margin-bottom: 10px;
+}
+
+.loading
+{
+	height: 20px;
+	width:100px;
+	background: #fcf696;
+	border-bottom:2px solid #ccc;
+	border-top:2px solid #ccc;
+	position:relative;
+	padding-top:5px;
+	padding-left:3px;
+}
+
+.splash-success, .splash-error
+{
+	height: 30px;
+	width:250px;
+	padding-top:13px;
+	text-align: center;
+	color:#fff;
+	/*border-bottom:2px solid #ccc;
+	border-top:2px solid #ccc;*/
+	position:relative;
+	border-radius:5px;
+	z-index:1000;
+}
+
+
+.splash-success
+{
+	background:-webkit-linear-gradient(top,#a5c266,#99b957); border:1px solid #778d26;
+}
+
+.splash-error
+{
+	background:-webkit-linear-gradient(top,#d28663,#cc7854); border:1px solid #ac532e;
+}
+
+#GridData{}
+#GridData table{border:1px solid #ccc; border-right:none; border-left:none;}
+#GridData table tr td{color:#555; font-size:9pt; border-top:1px solid #ccc; height: 20px; padding: 9px;}
+#GridData table th{
+	padding:10px; color:#444; font-weight:normal; text-shadow:0 1px 1px #fff;
+	background:-webkit-linear-gradient(top,#f6f6f6,#e7e7e7); background:-moz-linear-gradient(top,#f7f8fc,#e6edf7);
+ 	box-shadow:inset 0 1px 0 #fff;
+}
+#GridData table th img{position:relative; top:-1px;}
+
+#GridData table tbody tr:hover{background-color:#f2f2f2;}
+#GridData table thead tr th{text-align: center; font-weight: bold;}

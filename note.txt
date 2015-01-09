@@ -1,0 +1,17 @@
+category -> create folder fo image
+product -> upload image
+
+Update 
+=======
+07/08/2014
+
+controller
+1. product
+
+functions
+1. scaleimage
+
+models
+1.product
+
+init.php
